@@ -6,17 +6,17 @@ pipeline {
     stages {
         stage ('First Stage') {
             steps {
-                sh 'First Stage...'
+                sh 'echo First Stage...'
             }
         }
         stage ('Second Stage') {
             steps {
-                sh 'Second Stage...'
+                sh 'echo Second Stage...'
             }
         }
         stage ('Third Stage') {
             steps {
-                sh 'Third Stage...'
+                sh 'echo Third Stage...'
             }
         }
     }
