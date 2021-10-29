@@ -5,10 +5,14 @@ pipeline {
     }
     stages {
         stage ('First Stage') {
-            sh 'First Stage...'
+            steps {
+                sh 'First Stage...'
+            }
         }
         stage ('Second Stage') {
-            sh 'Second Stage...'
+            steps {
+                sh 'Second Stage...'
+            }
         }
     }
 }
