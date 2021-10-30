@@ -24,5 +24,10 @@ pipeline {
                 sh 'echo Fourth Stage...'
             }
         }
+        stage ('Fifth Stage') {
+            steps {
+                sh 'echo Fifth Stage...'
+            }
+        }
     }
 }
